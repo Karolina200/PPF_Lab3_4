@@ -16,5 +16,5 @@ const addA=(a,b =0) => a + b;
 //i takie samo jak:
 function addB(a,b){
     b= b === undefined ? 0 :b;
-    return a+ b;
+    return a + b;
 }
