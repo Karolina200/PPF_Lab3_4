@@ -7,13 +7,11 @@ const allLanguages=[...languages,...dsl];
 console.log(languages);
 console.log(dsl);
 console.log(allLanguages);
-
-courseDataForYear ={
+const dates={startDate:2020,endDate:2024};
+const courseData ={
     name:'Projektowanie i programowanie front-end',
     shortcut:'PPFront',
     year:'2',
-    yearstart:'2021',
-    yearend:'2022',
     content:{
 types:{
     lectures: true,
@@ -27,3 +25,5 @@ hours:{
 }
 }
 }
+const courseDataForYear = [dates,courseData]
+console.log(courseDataForYear);
